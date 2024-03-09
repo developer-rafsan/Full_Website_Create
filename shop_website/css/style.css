@@ -1,0 +1,377 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&family=Raleway:wght@400;500;600;800&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+
+
+html,
+body {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+button {
+  height: 4rem;
+  font-size: 1.5rem;
+  font-family: var(--titel);
+  font-weight: 600;
+  text-transform: uppercase;
+  border: unset;
+  border-radius: 0.5rem;
+  background-color: olivedrab;
+  color: #fff;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: translateY(-5px);
+  box-shadow: 1px 1px 5px #000000d8;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #383838;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #41e600;
+  border-radius: 10px;
+}
+
+:root {
+  --titel: "Raleway", sans-serif;
+  --sub_titel: "Nunito", sans-serif;
+}
+
+.scroll_effite {
+  position: fixed;
+  top: 0%;
+}
+
+/* header */
+header {
+  position: absolute;
+  top: 1.5rem;
+  width: 100%;
+  left: 0px;
+  z-index: 9999;
+}
+
+header .container {
+  background: url(../images/header-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header .navbar-brand img {
+  max-width: 120px;
+  padding-left: 2rem;
+  height: 40px;
+  margin-bottom: 1rem;
+}
+
+header .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+header .navbar-toggler i {
+  color: #fff;
+  font-size: 1.7rem;
+  margin-top: 1rem;
+  padding-right: 2rem;
+}
+
+header .nav-item .nav-link {
+  color: #fff;
+  font-family: var(--sub_titel);
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+header .nav-item .nav-link.active,
+header .nav-item .nav-link:hover {
+  color: orange;
+}
+
+header .right_content {
+  color: #fff;
+  font-size: 1.3rem;
+  font-family: var(--titel);
+  padding-right: 2rem;
+  text-transform: capitalize;
+}
+
+header .right_content .number {
+  color: orange;
+}
+
+/* header end */
+
+/* banner start */
+.banner_page {
+  width: 100%;
+  height: auto;
+  padding: 5rem 0px;
+  background-color: #e2e2e2;
+}
+
+.banner_page h1 {
+  font-family: var(--titel);
+  font-size: 4.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.banner_page p {
+  font-family: var(--sub_titel);
+  width: 70%;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.banner_page img {
+  width: 80%;
+  height: auto;
+}
+
+.banner_page button {
+  padding: 0px 3rem;
+  margin-top: 2rem;
+}
+
+/* bannner end */
+
+/* about page */
+.about_page {
+  padding: 5rem 0px;
+}
+
+.about_page .card {
+  max-width: 30rem;
+  width: 100%;
+  height: auto;
+  padding: 1.5rem;
+  top: 35%;
+  right: -50%;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+}
+
+.about_page .card h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: var(--sub_titel);
+  color: olive;
+}
+
+.about_page .card p {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  width: 90%;
+  margin: auto;
+}
+
+.about_page .card button {
+  width: 90%;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+/* about page card */
+
+/* manu page */
+.manu_page {
+  background-image: url(../images/food-menu-banner.jpg);
+  width: 100%;
+  height: auto;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #140c0ce5;
+}
+
+.manu_page .row {
+  padding-top: 300px;
+}
+
+.manu_page .card {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 2rem;
+  margin-bottom: 30px;
+  background-color: #140c0c;
+}
+
+.manu_page .card h1 {
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background-color: red;
+  display: inline-block;
+  font-style: italic;
+}
+
+.manu_page .card h5 {
+  color: #fff;
+  display: inline-block;
+  font-size: 2rem;
+  font-style: italic;
+  font-family: var(--titel);
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-left: 1.5rem;
+}
+
+.manu_page .card p {
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: var(--sub_titel);
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.manu_page .card button {
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: var(--titel);
+  text-transform: uppercase;
+  margin: 1rem 0px;
+  width: 50%;
+  left: 25%;
+  position: relative;
+}
+
+/* manu page end */
+
+/* offer page */
+.offer_page {
+  width: 100%;
+  height: auto;
+  padding-bottom: 5rem;
+}
+
+.offer_page h1 {
+  padding-top: 10rem;
+  text-transform: uppercase;
+  color: olive;
+  font-family: var(--titel);
+  font-weight: 600;
+}
+
+.offer_page p {
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: var(--sub_titel);
+  font-weight: bold;
+}
+
+.offer_page .card {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90%;
+  margin-top: 3rem;
+  height: 200px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.offer_page .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 1px 1px 10px black;
+}
+
+.offer_page .card .bg_overlay {
+  width: 40%;
+  height: 100%;
+  background-color: #140c0c81;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.offer_page .card .bg_overlay h4 {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+}
+
+.offer_page .card .bg_overlay h3 {
+  color: red;
+  font-size: 1.3rem;
+}
+
+.offer_page .card .bg_overlay button {
+  height: 30px;
+  width: 90%;
+}
+
+/* offer page end */
+
+/* review page */
+.review_page {
+  background-image: url(../images/review-banner.jpg);
+  height: auto;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10rem;
+}
+
+.review_page .card {
+  padding: 3rem;
+}
+.review_page .carousel-item {
+  min-height: 350px;
+  height: 100%;
+  text-align: center;
+}
+.review_page .carousel-item img {
+  margin-top: 5rem;
+  height: 5rem;
+}
+.review_page .carousel-item h1 {
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+.review_page .carousel-item p {
+  width: 70%;
+  margin: auto;
+}
+.review_page .carousel-item button {
+  width: 50%;
+  margin-top: 3rem;
+}
+
+/* review page end */

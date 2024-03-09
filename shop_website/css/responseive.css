@@ -1,0 +1,80 @@
+@media (max-width:400px) {
+    .review_page {
+        padding: 0rem;
+    }
+}
+
+@media (max-width:575px) {
+
+    html,
+    body {
+        font-size: 8px;
+    }
+
+    header {
+        top: 0px;
+    }
+
+    .home_page .content {
+        margin-top: 5rem;
+        padding: 0px 3rem;
+    }
+
+    .home_page .banner_right_content img {
+        margin-top: 5rem;
+        width: 50%;
+    }
+    .offer_page  .card {
+        margin: auto;
+    }
+    .review_page .carousel-item {
+        min-height: 200px;
+    }
+    .review_page .carousel-item img{
+        margin-top: 1rem;
+    }
+    .review_page .carousel-item h1{
+        margin-top: 1rem;
+    }
+    .review_page .carousel-item p {
+        width: 80%;
+        font-size: 1.3rem;
+    }
+    .review_page .carousel-item button {
+        width: 50%;
+        margin-top: 2rem;
+    }
+    .review_page {
+        padding: 4rem;
+    }
+}
+
+@media (max-width:767px) {
+    .home_page .banner_right_content img {
+        margin-top: 20rem;
+        width: 50%;
+    }
+    .banner_page p{
+        font-family: var(--sub_titel);
+        width: 70%;
+        font-size: 1.3rem;
+        text-transform: capitalize;
+        margin: auto;
+    }
+    .about_page .card {
+        top: 10%;
+        right: 0px;
+        margin: auto;
+    }
+    .review_page {
+        padding: 5rem;
+    }
+}
+
+@media (max-width:991px) {
+    .offer_page  .card .bg_overlay button {
+        height: 30px;
+        width: 95%;
+        font-size: 1rem;
+    }
+}
