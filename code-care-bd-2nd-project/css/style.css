@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 10px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+/* header section */
+.header_section{
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.header_section a h1 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.header_section .manu_bar li a {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+/* banner secrtion*/
+.banner_section {
+    background: #3636DB;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.banner_section h1 {
+    color: aliceblue;
+    font-size: 3.5rem;
+    text-transform: capitalize;
+}
+
+.banner_section p {
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 20px;
+    width: 70%;
+}
+
+.banner_section button {
+    height: 40px;
+    width: 120px;
+    background: #095ED7;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    text-transform: capitalize;
+    margin-right: 20px;
+}
+
+/* buttom shape divider */
+.custom-shape-divider-bottom-1656822487 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1656822487 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 104px;
+}
+
+.custom-shape-divider-bottom-1656822487 .shape-fill {
+    fill: #FFFFFF;
+}
+/* buttom shape divider */
+
+
+
+/* branding */
+.branding{
+    padding: 50px 0px;
+}
+
+.branding img {
+    width: 80%;
+}
+
+
+
+
+/* introducing */
+.introducing {
+    background: #3636DB;
+    position: relative;
+    padding: 150px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.introducing img {
+    width: 80%;
+}
+
+.custom-shape-divider-top-1656839075 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1656839075 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 120px;
+}
+
+.custom-shape-divider-top-1656839075 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.introducing h1{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 4rem;
+}
+ .introducing p {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+  .introducing ul li {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    margin-top: 10px;
+  }
+
+
+
+
+  /* crad_section */
+  .crad_section {
+    padding: 100px 0px;
+  }
+  .crad_section i {
+    height: 40px;
+    width: 40px;
+    background: #095ED7;
+    border-radius: 50%;
+    align-items: center;
+    line-height: 40px;
+    color: #FFFFFF;
+    font-size: 2rem;
+  }
+  .crad_section h1 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 10px 0px;
+  }
+  .crad_section p {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+  }
+
+
+
+  /* gallery_section */
+  .gallery_section {
+    padding: 50px 0px;
+    background-color: #F5F5F5;
+
+  }
+
+
+
+  /* protjolio_section */
+  .protjolio_section {
+    padding: 150px 0px;
+    background-color: #3636DB;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .protjolio_section h1 {
+    color: #F5F5F5;
+    font-size: 2.5rem;
+    margin: 20px 0px;
+  }
+
+  .protjolio_section button {
+    height: 40px;
+    width: 120px;
+    background: #095ED7;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    text-transform: capitalize;
+    margin-right: 20px;
+}
+
+.protjolio_section p {
+  width: 70%;
+  font-size: 1.5rem;
+  color: #F5F5F5;
+}
+
+.protjolio_section img {
+  width: 90%;
+}
+
+/* contact */
+.contact {
+  padding: 100px 0px;
+}
+
+.contact .content {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact input {
+  height: 40px;
+  width: 70%;
+  font-size: 2rem;
+  padding: 0px 20px;
+  text-transform: capitalize;
+}
+.contact textarea {
+  height: 100px;
+  width: 70%;
+  margin-top: 20px;
+  font-size: 2rem;
+  padding: 0px 20px;
+  text-transform: capitalize;
+}
+.contact button {
+  height: 40px;
+  width: 120px;
+  background: #095ED7;
+  border: none;
+  outline: none;
+  color: aliceblue;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  text-transform: capitalize;
+  margin-right: 20px;
+  margin-top: 20px;
+}
