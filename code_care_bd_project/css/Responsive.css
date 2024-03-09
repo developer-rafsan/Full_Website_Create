@@ -1,0 +1,13 @@
+@media (max-width : 770px){
+    .manu_bar {
+        background: transparent;
+        backdrop-filter: blur(10px);
+    }
+    .expertises_section .card {
+        margin: 20px 0px;
+    }
+
+    .protfolio .card {
+        margin: 20px 0px;
+    }
+}
