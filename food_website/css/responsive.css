@@ -1,0 +1,62 @@
+@media (max-width : 990px){
+    html,
+    body{
+        font-size: 8px;
+    }
+
+    #header {
+        background-color: transparent;
+        padding-bottom: 10px;
+        backdrop-filter: blur(10px) !important;
+    }
+
+    header .number {
+        width: 150px;
+        text-align: center;
+    }
+
+    header .manu_bar {
+        padding-top: 30px;
+    }
+    header button i{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width : 770px){ 
+    html,
+    body{
+        font-size: 7px;
+    }
+    #header {
+        background-color: transparent;
+        padding-bottom: 10px;
+        backdrop-filter: blur(10px);
+    }
+
+    .about_section h2 {
+        margin-top: 5rem;
+    }
+}
+
+@media (max-width : 577px){
+    html,
+    body{
+        font-size: 7px;
+    }
+    #header {
+        background-color: transparent;
+        padding-bottom: 10px;
+        backdrop-filter: blur(10px);
+    }
+    .container {
+        padding: 0px 20px !important;
+    }
+    .review_section .carousel-item {
+        padding: 15rem 1rem;
+    }
+
+    .review_section .carousel-item .carousel-caption {
+        margin-bottom: 2rem;
+    }
+}

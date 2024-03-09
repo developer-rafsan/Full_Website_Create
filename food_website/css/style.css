@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    font-size: 10px;
+}
+
+/* custom scroll bar */
+
+::-webkit-scrollbar {
+    width: 7px;
+    background: orange;
+}
+::-webkit-scrollbar-thumb {
+    background: #2226ff;
+    border-radius: calc(15px / 2);
+}
+
+
+/* manu sticky */
+.sticky_manu {
+    position: fixed;
+}
+
+
+/* preloder */
+.preloder {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: 9999;
+    top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8fafa;
+}
+
+
+/* header section */
+header {
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    z-index: 999;
+}
+
+header img {
+    width: 80%;
+}
+
+header button i {
+    color: #f8fafa;
+    font-size: 2rem;
+}
+
+.navbar-toggler:focus {
+    box-shadow: unset !important;
+}
+
+header .manu_bar {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+header .number {
+    background-color: #fbff02;
+    padding: 3px 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header .number a {
+    color: black !important;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header .manu_bar .active,
+header .manu_bar a:hover {
+    color: #fbff02;
+}
+
+header .manu_bar a {
+    color: aliceblue;
+}
+
+
+
+
+/* banner section */
+
+.banner_page {
+    background: url(../images/bg/bg-1.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.banner_page h1 {
+    text-transform: uppercase;
+    color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    margin-top: 5rem;
+}
+.banner_page h1 span {
+    color: #ecf010;
+}
+
+.banner_page h3 {
+    color: aliceblue;
+    text-transform: capitalize;
+    margin-top: 2rem;
+    color: #757707;
+    font-size: 1.7rem;
+}
+
+.banner_page h5 {
+    color: #f8fafa;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.banner_page button {
+    height: 35px;
+    width: 120px;
+    background: transparent;
+    border: 1px solid #fbff02;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: #f8fafa;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+}
+
+
+/* manu_items section */
+#manu_items {
+    padding: 10px 0px;
+    overflow: hidden;
+}
+
+#manu_items h3 {
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    color: #757707;
+    font-family: 'Raleway', sans-serif;
+    margin: 2rem 0rem;
+    font-weight: 700;
+}
+
+#manu_items .titel {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#manu_items img {
+    transition: .50s;
+    cursor: pointer;
+}
+
+#manu_items img:hover {
+    background-color: #757707;
+    border-radius: 50%;
+    padding: 1rem 1.5rem;
+}
+
+
+
+
+/* about section */
+.about_section {
+    padding: 5rem 0px;
+    overflow: hidden;
+}
+
+.about_section img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.about_section h2 {
+    color: #757707;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.about_section p {
+    color: #f8fafa;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+}
+
+.about_section button {
+    height: 35px;
+    width: 120px;
+    background: orange;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: #f8fafa;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 4rem;
+}
+
+.about_section ul li {
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    list-style: none;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.about_section ul li::before
+{
+   content: "\f061";
+   position: absolute;
+   font-family: 'FontAwesome';
+   left: -20px;
+   font-weight: 700;
+   color: #757707;
+}
+
+
+/* explore_section */
+.about_section {
+    overflow: hidden;
+}
+
+.explore_section h1 {
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    color: #757707;
+    font-family: 'Raleway', sans-serif;
+    margin: 2rem 0rem;
+    font-weight: 700;
+}
+.explore_section .card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+.explore_section h3 {
+    padding: .5rem 2rem;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+}
+.explore_section p {
+    padding: .1rem 2rem;
+    text-transform: capitalize;
+    color: #000000;
+}
+.explore_section button {
+    height: 35px;
+    width: 120px;
+    background: olive;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 2rem;
+}
+
+
+
+
+/* slider */
+.review_section {
+    background-color: #757707;
+    padding: 5rem 0rem;
+}
+
+.review_section h1 {
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    margin: 2rem 0rem;
+    font-weight: 700;
+}
+.review_section .carousel-item {
+    padding: 10rem 3rem;
+    background-color: #000000;
+    border-bottom: 1rem;
+    text-align: center;
+    border-radius: 20px;
+}
+.review_section .carousel-item img {
+    border-radius: 50%;
+    height: 7rem;
+}
+.review_section .carousel-item h5 {
+    text-transform: uppercase;
+    color: #f8fafa;
+    margin-top: 1rem;
+    letter-spacing: .1rem;
+}
+.review_section .carousel-item p {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+.review_section .carousel-indicators button {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    margin-right: 1.5rem;
+}
